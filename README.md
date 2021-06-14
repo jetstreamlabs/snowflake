@@ -9,8 +9,6 @@
 
 ## Description
 
-![file](https://images.JSLabs.com/logos/201908/13/_1565672621_LPW65Pi8cG.png)
-
 Snowflake is a network service for generating unique ID numbers at high scale with some simple guarantees.
 
 * The first bit is unused sign bit.

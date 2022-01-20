@@ -1,0 +1,39 @@
+{
+	"private": true,
+	"scripts": {
+		"fixer": "php ./vendor/bin/styleci analyze -c"
+	},
+	"commitlint": {
+		"extends": [
+			"@commitlint/config-conventional"
+		],
+		"rules": {
+			"header-max-length": [
+				2,
+				"always",
+				120
+			],
+			"type-enum": [
+				2,
+				"always",
+				[
+					"breaking",
+					"feat",
+					"fix",
+					"task",
+					"refactor",
+					"docs",
+					"chore"
+				]
+			]
+		}
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^16.1.0",
+		"@commitlint/config-conventional": "^16.0.0",
+		"@semantic-release/changelog": "^6.0.1",
+		"@semantic-release/git": "^10.0.1",
+		"husky": "^7.0.4",
+		"semantic-release": "^19.0.2"
+	}
+}

@@ -1,22 +1,22 @@
-<?php 
+<?php
 
-namespace JSLabs\Snowflake\Concerns;
+namespace JetLabs\Snowflake\Concerns;
 
 use Illuminate\Database\Eloquent\Model;
 
-trait HasSnowflakePrimary 
+trait HasSnowflakePrimary
 {
-  public static function bootHasSnowflakePrimary()
-  {
-    static::saving(function (Model $model) {
-      if (is_null($model->getKey())) {
-        $model->setIncrementing(false);
-        
-        $model->setAttribute(
-          $model->getKeyName(),
-          app(config('snowflake.instance'))->id()
-        );
-      }
-    });
-  }
+	public static function bootHasSnowflakePrimary()
+	{
+		static::saving(function (Model $model) {
+			if (is_null($model->getKey())) {
+				$model->setIncrementing(false);
+
+				$model->setAttribute(
+		  $model->getKeyName(),
+		  app(config('snowflake.instance'))->id()
+		);
+			}
+		});
+	}
 }

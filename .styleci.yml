@@ -1,1 +1,10 @@
-preset: symfony
+php:
+  preset: laravel
+  version: 8
+  tab-width: 2
+  use-tabs: true
+  finder:
+    exclude:
+      - 'node_modules'
+      - 'vendor'
+    name: '*.php'

@@ -1,32 +1,36 @@
 {
-    "name": "jetstreamlabs/snowflake",
-    "description": "An ID Generator for PHP based on Snowflake Algorithm (Twitter announced).",
-    "license": "MIT",
-    "keywords": [
-        "snowflake algorithm",
-        "php snowflake",
-        "laravel snowflake"
-    ],
-    "homepage": "https://github.com/jetstreamlabs/snowflake",
-    "authors": [
-        {
-            "name": "Vince Kronlein",
-            "email": "vince@jetstreamlabs.com"
-        }
-    ],
-    "require": {
-        "php": "^8.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "JSLabs\\Snowflake\\": "src"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "JSLabs\\Snowflake\\Providers\\SnowflakeServiceProvider"
-            ]
-        }
-    }
+	"name": "jetstreamlabs/snowflake",
+	"description": "An ID Generator for PHP based on Snowflake Algorithm (Twitter announced).",
+	"license": "MIT",
+	"keywords": [
+		"snowflake algorithm",
+		"php snowflake",
+		"laravel snowflake"
+	],
+	"homepage": "https://github.com/jetstreamlabs/snowflake",
+	"authors": [
+		{
+			"name": "secondman",
+			"email": "secondman@jetstreamlabs.com"
+		}
+	],
+	"require": {
+		"php": "^8.0",
+		"illuminate/database": "^8.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"JetLabs\\Snowflake\\": "src"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"JetLabs\\Snowflake\\Providers\\SnowflakeServiceProvider"
+			]
+		}
+	},
+	"require-dev": {
+		"styleci/cli": "^1.2"
+	}
 }

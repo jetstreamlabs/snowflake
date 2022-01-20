@@ -1,50 +1,50 @@
-<?php 
+<?php
 
-namespace JSLabs\Snowflake;
+namespace JetLabs\Snowflake;
 
-use Illuminate\Database\Eloquent\SoftDeletes;
-use JSLabs\Snowflake\Concerns\HasSnowflakePrimary;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Illuminate\Database\Eloquent\SoftDeletes;
+use JetLabs\Snowflake\Concerns\HasSnowflakePrimary;
 
-abstract class Model extends EloquentModel 
+abstract class Model extends EloquentModel
 {
-    use HasSnowflakePrimary;
-    
-    /**
-     * The primary key for the model.
-     *
-     * @var string
-     */
-    protected $primaryKey = 'id';
+	use HasSnowflakePrimary;
 
-    /**
-     * Indicates if the IDs are auto-incrementing.
-     *
-     * @var bool
-     */
-    public $incrementing = false;
+	/**
+	 * The primary key for the model.
+	 *
+	 * @var string
+	 */
+	protected $primaryKey = 'id';
 
-    /**
-     * Retrieve the model for a bound value.
-     *
-     * @param  mixed  $value
-     * @param  string|null  $field
-     * @return \Illuminate\Database\Eloquent\Model|null
-     */
-    public function resolveRouteBinding($value, $field = null)
-    {
-        return in_array(SoftDeletes::class, class_uses($this))
-            ? $this->where($field ?? $this->getRouteKeyName(), $value)->withTrashed()->first()
-            : parent::resolveRouteBinding($value, $field);
-    }
+	/**
+	 * Indicates if the IDs are auto-incrementing.
+	 *
+	 * @var bool
+	 */
+	public $incrementing = false;
 
-    /**
-     * Return self to ensure proper error handling.
-     *
-     * @return \Illuminate\Database\Eloquent\Model
-     */
-    public function getEntity()
-    {
-        return $this;
-    }
+	/**
+	 * Retrieve the model for a bound value.
+	 *
+	 * @param  mixed  $value
+	 * @param  string|null  $field
+	 * @return \Illuminate\Database\Eloquent\Model|null
+	 */
+	public function resolveRouteBinding($value, $field = null)
+	{
+		return in_array(SoftDeletes::class, class_uses($this))
+			? $this->where($field ?? $this->getRouteKeyName(), $value)->withTrashed()->first()
+			: parent::resolveRouteBinding($value, $field);
+	}
+
+	/**
+	 * Return self to ensure proper error handling.
+	 *
+	 * @return \Illuminate\Database\Eloquent\Model
+	 */
+	public function getEntity()
+	{
+		return $this;
+	}
 }

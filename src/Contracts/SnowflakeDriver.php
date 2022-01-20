@@ -1,22 +1,22 @@
-<?php 
+<?php
 
-namespace JSLabs\Snowflake\Contracts;
+namespace JetLabs\Snowflake\Contracts;
 
-interface SnowflakeDriver 
+interface SnowflakeDriver
 {
-    /**
-     * Get snowflake id.
-     *
-     * @return string
-     */
-    public function id(): string;
+	/**
+	 * Get snowflake id.
+	 *
+	 * @return string
+	 */
+	public function id(): string;
 
-    /**
-     * Parse snowflake id.
-     *
-     * @param  string $id
-     * @param  boolean $transform
-     * @return array
-     */
-    public function parseId(string $id, $transform = false): array;
+	/**
+	 * Parse snowflake id.
+	 *
+	 * @param  string  $id
+	 * @param  bool  $transform
+	 * @return array
+	 */
+	public function parseId(string $id, $transform = false): array;
 }

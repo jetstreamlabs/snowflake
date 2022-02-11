@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b835ae46a9abda532a7eff6c48c5a422",
+    "content-hash": "ecb21384df78700d0f8489a46e071456",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -1703,16 +1703,16 @@
     "packages-dev": [
         {
             "name": "styleci/cli",
-            "version": "v1.2.1",
+            "version": "v1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/StyleCI/CLI.git",
-                "reference": "917ee0b5b67079afbeb3499d3ba63b58545e780a"
+                "reference": "4f03b3774b08f2745b209b6a1f65f4135a9a1dbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StyleCI/CLI/zipball/917ee0b5b67079afbeb3499d3ba63b58545e780a",
-                "reference": "917ee0b5b67079afbeb3499d3ba63b58545e780a",
+                "url": "https://api.github.com/repos/StyleCI/CLI/zipball/4f03b3774b08f2745b209b6a1f65f4135a9a1dbd",
+                "reference": "4f03b3774b08f2745b209b6a1f65f4135a9a1dbd",
                 "shasum": ""
             },
             "require": {
@@ -1742,9 +1742,9 @@
             ],
             "description": "The CLI tool for StyleCI",
             "support": {
-                "source": "https://github.com/StyleCI/CLI/tree/v1.2.1"
+                "source": "https://github.com/StyleCI/CLI/tree/v1.2.2"
             },
-            "time": "2021-12-05T03:06:28+00:00"
+            "time": "2022-02-05T18:16:30+00:00"
         }
     ],
     "aliases": [],

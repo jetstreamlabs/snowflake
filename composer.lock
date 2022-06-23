@@ -1707,16 +1707,16 @@
     "packages-dev": [
         {
             "name": "styleci/cli",
-            "version": "v1.2.3",
+            "version": "v1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/StyleCI/CLI.git",
-                "reference": "64627433a733ff21870e64d0c9b6f6b4e8c8b1c9"
+                "reference": "943bd1851a4e98c0f7f3ca4d6e5ec4cc9934a6a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StyleCI/CLI/zipball/64627433a733ff21870e64d0c9b6f6b4e8c8b1c9",
-                "reference": "64627433a733ff21870e64d0c9b6f6b4e8c8b1c9",
+                "url": "https://api.github.com/repos/StyleCI/CLI/zipball/943bd1851a4e98c0f7f3ca4d6e5ec4cc9934a6a7",
+                "reference": "943bd1851a4e98c0f7f3ca4d6e5ec4cc9934a6a7",
                 "shasum": ""
             },
             "require": {
@@ -1746,9 +1746,9 @@
             ],
             "description": "The CLI tool for StyleCI",
             "support": {
-                "source": "https://github.com/StyleCI/CLI/tree/v1.2.3"
+                "source": "https://github.com/StyleCI/CLI/tree/v1.3.2"
             },
-            "time": "2022-03-26T14:51:15+00:00"
+            "time": "2022-06-22T09:40:17+00:00"
         }
     ],
     "aliases": [],
@@ -1760,5 +1760,5 @@
         "php": "^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }

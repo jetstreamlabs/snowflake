@@ -1,8 +1,8 @@
 <?php
 
-namespace JetLabs\Snowflake;
+namespace Jetlabs\Snowflake;
 
-use JetLabs\Snowflake\Contracts\SnowflakeDriver;
+use Jetlabs\Snowflake\Contracts\SnowflakeDriver;
 
 class Sonyflake extends Snowflake implements SnowflakeDriver
 {
@@ -70,7 +70,7 @@ class Sonyflake extends Snowflake implements SnowflakeDriver
 	 * Set start time (millisecond).
 	 *
 	 * @param  int  $startTime
-	 * @return \JetLabs\Snowflake\Sonyflake
+	 * @return \Jetlabs\Snowflake\Sonyflake
 	 */
 	public function setStartTimeStamp(int $startTime): Sonyflake
 	{

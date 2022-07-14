@@ -1,6 +1,6 @@
 <?php
 
-namespace JetLabs\Snowflake\Concerns;
+namespace Jetlabs\Snowflake\Concerns;
 
 use Illuminate\Database\Eloquent\Model;
 

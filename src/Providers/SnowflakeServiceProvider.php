@@ -1,12 +1,12 @@
 <?php
 
-namespace JetLabs\Snowflake\Providers;
+namespace Jetlabs\Snowflake\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use JetLabs\Snowflake\Contracts\SequenceResolver;
-use JetLabs\Snowflake\Contracts\SnowflakeDriver;
-use JetLabs\Snowflake\Snowflake;
-use JetLabs\Snowflake\Sonyflake;
+use Jetlabs\Snowflake\Contracts\SequenceResolver;
+use Jetlabs\Snowflake\Contracts\SnowflakeDriver;
+use Jetlabs\Snowflake\Snowflake;
+use Jetlabs\Snowflake\Sonyflake;
 
 class SnowflakeServiceProvider extends ServiceProvider
 {
@@ -98,7 +98,7 @@ class SnowflakeServiceProvider extends ServiceProvider
 	 * Resolve the requested SequenceResolver class.
 	 *
 	 * @param  string  $key
-	 * @return \JetLabs\Snowflake\Contracts\SequenceResolver
+	 * @return \Jetlabs\Snowflake\Contracts\SequenceResolver
 	 */
 	private function resolveInstance(string $key): SequenceResolver
 	{
@@ -129,7 +129,7 @@ class SnowflakeServiceProvider extends ServiceProvider
 	 * Resolve and build the requested Driver.
 	 *
 	 * @param  string  $key
-	 * @return \JetLabs\Snowflake\Contracts\SnowflakeDriver
+	 * @return \Jetlabs\Snowflake\Contracts\SnowflakeDriver
 	 */
 	private function resolveDriver(string $key): SnowflakeDriver
 	{

@@ -1,8 +1,8 @@
 <?php
 
-namespace JetLabs\Snowflake\Resolvers;
+namespace Jetlabs\Snowflake\Resolvers;
 
-use JetLabs\Snowflake\Contracts\SequenceResolver;
+use Jetlabs\Snowflake\Contracts\SequenceResolver;
 use Redis;
 use RedisException;
 
@@ -59,7 +59,7 @@ class RedisResolver implements SequenceResolver
 	 * Set cache prefix.
 	 *
 	 * @param  string  $prefix
-	 * @return \JetLabs\Snowflake\RedisResolver
+	 * @return \Jetlabs\Snowflake\RedisResolver
 	 */
 	public function setCachePrefix(string $prefix): RedisResolver
 	{

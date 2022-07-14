@@ -1,11 +1,11 @@
 <?php
 
-use JetLabs\Snowflake\Resolvers\LaravelResolver;
-use JetLabs\Snowflake\Resolvers\RandomResolver;
-use JetLabs\Snowflake\Resolvers\RedisResolver;
-use JetLabs\Snowflake\Resolvers\SwooleResolver;
-use JetLabs\Snowflake\Snowflake;
-use JetLabs\Snowflake\Sonyflake;
+use Jetlabs\Snowflake\Resolvers\LaravelResolver;
+use Jetlabs\Snowflake\Resolvers\RandomResolver;
+use Jetlabs\Snowflake\Resolvers\RedisResolver;
+use Jetlabs\Snowflake\Resolvers\SwooleResolver;
+use Jetlabs\Snowflake\Snowflake;
+use Jetlabs\Snowflake\Sonyflake;
 
 return [
 	// Requested Snowflake instance.

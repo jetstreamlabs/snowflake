@@ -1,10 +1,10 @@
 <?php
 
-namespace JetLabs\Snowflake;
+namespace Jetlabs\Snowflake;
 
-use JetLabs\Snowflake\Contracts\SequenceResolver;
-use JetLabs\Snowflake\Contracts\SnowflakeDriver;
-use JetLabs\Snowflake\Resolvers\RandomResolver;
+use Jetlabs\Snowflake\Contracts\SequenceResolver;
+use Jetlabs\Snowflake\Contracts\SnowflakeDriver;
+use Jetlabs\Snowflake\Resolvers\RandomResolver;
 
 class Snowflake implements SnowflakeDriver
 {
@@ -35,7 +35,7 @@ class Snowflake implements SnowflakeDriver
 	/**
 	 * The Sequence Resolver instance.
 	 *
-	 * @var \JetLabs\Snowflake\SequenceResolver|null
+	 * @var \Jetlabs\Snowflake\SequenceResolver|null
 	 */
 	protected SequenceResolver $sequence;
 
@@ -49,7 +49,7 @@ class Snowflake implements SnowflakeDriver
 	/**
 	 * Default sequence resolver.
 	 *
-	 * @var \JetLabs\Snowflake\SequenceResolver|null
+	 * @var \Jetlabs\Snowflake\SequenceResolver|null
 	 */
 	protected SequenceResolver $defaultSequenceResolver;
 
@@ -129,7 +129,7 @@ class Snowflake implements SnowflakeDriver
 	 * Set start time (milliseconds).
 	 *
 	 * @param  int  $startTime
-	 * @return \JetLabs\Snowflake\Snowflake
+	 * @return \Jetlabs\Snowflake\Snowflake
 	 */
 	public function setStartTimeStamp(int $startTime): Snowflake
 	{
@@ -170,8 +170,8 @@ class Snowflake implements SnowflakeDriver
 	/**
 	 * Set Sequence Resolver.
 	 *
-	 * @param  \JetLabs\Snowflake\SequenceResolver|callable  $sequence
-	 * @return \JetLabs\Snowflake\Snowflake
+	 * @param  \Jetlabs\Snowflake\SequenceResolver|callable  $sequence
+	 * @return \Jetlabs\Snowflake\Snowflake
 	 */
 	public function setSequenceResolver($sequence): Snowflake
 	{
@@ -183,7 +183,7 @@ class Snowflake implements SnowflakeDriver
 	/**
 	 * Get Sequence Resolver.
 	 *
-	 * @return \JetLabs\Snowflake\SequenceResolver|callable|null
+	 * @return \Jetlabs\Snowflake\SequenceResolver|callable|null
 	 */
 	public function getSequenceResolver()
 	{
@@ -193,7 +193,7 @@ class Snowflake implements SnowflakeDriver
 	/**
 	 * Get Default Sequence Resolver.
 	 *
-	 * @return \JetLabs\Snowflake\SequenceResolver
+	 * @return \Jetlabs\Snowflake\SequenceResolver
 	 */
 	public function getDefaultSequenceResolver(): SequenceResolver
 	{
@@ -204,7 +204,7 @@ class Snowflake implements SnowflakeDriver
 	/**
 	 * Call resolver.
 	 *
-	 * @param  callable|\JetLabs\Snowflake\SequenceResolver  $resolver
+	 * @param  callable|\Jetlabs\Snowflake\SequenceResolver  $resolver
 	 * @param  int  $maxSequence
 	 * @return int
 	 */

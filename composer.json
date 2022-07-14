@@ -20,13 +20,13 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"JetLabs\\Snowflake\\": "src"
+			"Jetlabs\\Snowflake\\": "src"
 		}
 	},
 	"extra": {
 		"laravel": {
 			"providers": [
-				"JetLabs\\Snowflake\\Providers\\SnowflakeServiceProvider"
+				"Jetlabs\\Snowflake\\Providers\\SnowflakeServiceProvider"
 			]
 		}
 	},

@@ -1,10 +1,10 @@
 <?php
 
-namespace JetLabs\Snowflake;
+namespace Jetlabs\Snowflake;
 
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use JetLabs\Snowflake\Concerns\HasSnowflakePrimary;
+use Jetlabs\Snowflake\Concerns\HasSnowflakePrimary;
 
 abstract class Model extends EloquentModel
 {

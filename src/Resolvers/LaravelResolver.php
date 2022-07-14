@@ -1,9 +1,9 @@
 <?php
 
-namespace JetLabs\Snowflake\Resolvers;
+namespace Jetlabs\Snowflake\Resolvers;
 
 use Illuminate\Contracts\Cache\Repository;
-use JetLabs\Snowflake\Contracts\SequenceResolver;
+use Jetlabs\Snowflake\Contracts\SequenceResolver;
 
 class LaravelResolver implements SequenceResolver
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace JetLabs\Snowflake\Contracts;
+namespace Jetlabs\Snowflake\Contracts;
 
 interface SequenceResolver
 {

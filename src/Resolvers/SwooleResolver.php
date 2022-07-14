@@ -1,8 +1,8 @@
 <?php
 
-namespace JetLabs\Snowflake\Resolvers;
+namespace Jetlabs\Snowflake\Resolvers;
 
-use JetLabs\Snowflake\Contracts\SequenceResolver;
+use Jetlabs\Snowflake\Contracts\SequenceResolver;
 
 class SwooleResolver implements SequenceResolver
 {

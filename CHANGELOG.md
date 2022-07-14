@@ -1,5 +1,12 @@
 # Snowflake Changelog
 
+# [3.0.0](https://github.com/jetstreamlabs/snowflake/compare/v2.0.0...v3.0.0) (2022-07-14)
+
+
+### Breaking
+
+* update to database 9 ([d20d73a](https://github.com/jetstreamlabs/snowflake/commit/d20d73a55eb98dc46fe4ceaba3dca8e3a26c87b3))
+
 # [2.0.0](https://github.com/jetstreamlabs/snowflake/compare/v1.0.0...v2.0.0) (2022-07-14)
 
 

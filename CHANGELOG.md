@@ -1,5 +1,30 @@
 # Snowflake Changelog
 
+## [3.0.1](https://github.com/jetstreamlabs/snowflake/compare/v3.0.0...v3.0.1) (2022-09-19)
+
+
+### Code Refactoring
+
+* update illuminate/database ([95879eb](https://github.com/jetstreamlabs/snowflake/commit/95879eb065dd44085a76e0c7a08676bdfa57f8ed))
+
+
+* **deps-dev:** bump @commitlint/cli from 17.0.3 to 17.1.2 ([83fff72](https://github.com/jetstreamlabs/snowflake/commit/83fff7224f302fccf4a065c49374afe12433b140))
+* **deps-dev:** bump @commitlint/config-conventional ([0730e65](https://github.com/jetstreamlabs/snowflake/commit/0730e655af5528b990f4d95915b63ed5df7c9bdd))
+* **deps-dev:** bump semantic-release from 19.0.3 to 19.0.5 ([de11e70](https://github.com/jetstreamlabs/snowflake/commit/de11e70013bb648fa3b871206adbad30b0f38843))
+* **deps:** bump actions/setup-node from 3.4.0 to 3.4.1 ([7a21a77](https://github.com/jetstreamlabs/snowflake/commit/7a21a779dd19ceee0a9b11a2029a4515fe557494))
+* **deps:** bump illuminate/database from 9.20.0 to 9.22.1 ([88990b1](https://github.com/jetstreamlabs/snowflake/commit/88990b1c2ab2119aeb9f37fc92c074e4b9e1e70a))
+* **deps:** bump illuminate/database from 9.22.1 to 9.23.0 ([9fc2c02](https://github.com/jetstreamlabs/snowflake/commit/9fc2c0214d2fa04217c8722332ae530b8bdfbd90))
+* **deps:** bump illuminate/database from 9.23.0 to 9.27.0 ([c1d39a5](https://github.com/jetstreamlabs/snowflake/commit/c1d39a5950dd009cf314cffb246353bb0a31f253))
+* **deps:** bump illuminate/database from 9.27.0 to 9.29.0 ([b2be91e](https://github.com/jetstreamlabs/snowflake/commit/b2be91e4553c8eae67b9f8c2f11484d97539b010))
+* **deps:** bump illuminate/database from 9.29.0 to 9.30.1 ([0f9e0c4](https://github.com/jetstreamlabs/snowflake/commit/0f9e0c41db76b9bf638cd98417c80773e89e9d6f))
+
+
+### Maintenance
+
+* **dev-deps:** dependabot updates ([ca149b2](https://github.com/jetstreamlabs/snowflake/commit/ca149b2c010ba71f8ced88fae5999110bca334c5))
+* **dev-deps:** update deps via dpbot ([cc982ed](https://github.com/jetstreamlabs/snowflake/commit/cc982ed5298d4a22e32d44cdb1ab37d97e356778))
+* **style:** apply fixes from StyleCI ([c3bd804](https://github.com/jetstreamlabs/snowflake/commit/c3bd804cebd2bbb17a97b58b5b7804e6f32a3b24))
+
 # [3.0.0](https://github.com/jetstreamlabs/snowflake/compare/v2.0.0...v3.0.0) (2022-07-14)
 
 

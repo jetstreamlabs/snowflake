@@ -1688,16 +1688,16 @@
     "packages-dev": [
         {
             "name": "styleci/cli",
-            "version": "v1.3.2",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/StyleCI/CLI.git",
-                "reference": "943bd1851a4e98c0f7f3ca4d6e5ec4cc9934a6a7"
+                "reference": "9566c4ad6c0424331b2c75270960dbf5cf3b028d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StyleCI/CLI/zipball/943bd1851a4e98c0f7f3ca4d6e5ec4cc9934a6a7",
-                "reference": "943bd1851a4e98c0f7f3ca4d6e5ec4cc9934a6a7",
+                "url": "https://api.github.com/repos/StyleCI/CLI/zipball/9566c4ad6c0424331b2c75270960dbf5cf3b028d",
+                "reference": "9566c4ad6c0424331b2c75270960dbf5cf3b028d",
                 "shasum": ""
             },
             "require": {
@@ -1727,9 +1727,9 @@
             ],
             "description": "The CLI tool for StyleCI",
             "support": {
-                "source": "https://github.com/StyleCI/CLI/tree/v1.3.2"
+                "source": "https://github.com/StyleCI/CLI/tree/v1.4.0"
             },
-            "time": "2022-06-22T09:40:17+00:00"
+            "time": "2022-11-06T17:55:07+00:00"
         }
     ],
     "aliases": [],

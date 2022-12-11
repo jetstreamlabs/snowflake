@@ -1,7 +1,8 @@
 {
 	"private": true,
 	"scripts": {
-		"fixer": "php ./vendor/bin/styleci analyze -c"
+		"fixer": "php ./vendor/bin/styleci analyze -c",
+		"cn": "composer update && npm update"
 	},
 	"commitlint": {
 		"extends": [

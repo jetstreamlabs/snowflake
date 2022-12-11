@@ -1,5 +1,21 @@
 # Snowflake Changelog
 
+## [3.0.2](https://github.com/jetstreamlabs/snowflake/compare/v3.0.1...v3.0.2) (2022-12-11)
+
+
+* **deps-dev:** bump @commitlint/cli from 17.1.2 to 17.3.0 ([594927a](https://github.com/jetstreamlabs/snowflake/commit/594927a221612edacaf64d3eb180c52a4551af99))
+* **deps-dev:** bump @commitlint/config-conventional ([32ae10c](https://github.com/jetstreamlabs/snowflake/commit/32ae10c11cc5815dab8f88170f7df7c9b925023e))
+* **deps-dev:** bump @semantic-release/changelog from 6.0.1 to 6.0.2 ([66fc1d0](https://github.com/jetstreamlabs/snowflake/commit/66fc1d00177daf121ad11199b8890090cb756725))
+* **deps-dev:** bump husky from 8.0.1 to 8.0.2 ([314c7fb](https://github.com/jetstreamlabs/snowflake/commit/314c7fb5cb335c6bde1adc56ef3e2165277811fc))
+* **deps-dev:** bump styleci/cli from 1.3.2 to 1.4.0 ([6df82f1](https://github.com/jetstreamlabs/snowflake/commit/6df82f123dcacda65e5671f7423b99f3545e6dbb))
+* **deps:** bump actions/setup-node from 3.4.1 to 3.5.1 ([5cd2e5b](https://github.com/jetstreamlabs/snowflake/commit/5cd2e5bfa9b5a6bf89713dc98435424f99b739bd))
+* **deps:** bump illuminate/database from 9.30.1 to 9.43.0 ([ed8f594](https://github.com/jetstreamlabs/snowflake/commit/ed8f594ab5742449bce24e8439937c242cff57ea))
+
+
+### Task Commit
+
+* update dependencies ([2633b0e](https://github.com/jetstreamlabs/snowflake/commit/2633b0e6cb1f03fa3aced6817813649d556f3b29))
+
 ## [3.0.1](https://github.com/jetstreamlabs/snowflake/compare/v3.0.0...v3.0.1) (2022-09-19)
 
 

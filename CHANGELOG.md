@@ -1,5 +1,16 @@
 # Snowflake Changelog
 
+## [3.0.3](https://github.com/jetstreamlabs/snowflake/compare/v3.0.2...v3.0.3) (2023-01-04)
+
+
+* **deps-dev:** bump husky from 8.0.2 to 8.0.3 ([e377250](https://github.com/jetstreamlabs/snowflake/commit/e37725018e19e6b05ab9fe5f78c86a47fbbdf3f7))
+* **deps:** bump illuminate/database from 9.43.0 to 9.46.0 ([a8f31ef](https://github.com/jetstreamlabs/snowflake/commit/a8f31efda01f172b27e4b72c3adcc3c3059805aa))
+
+
+### Task Commit
+
+* update dependencies —dpbot ([afa2f84](https://github.com/jetstreamlabs/snowflake/commit/afa2f842a5cdea419cc5ef800f86342be020ac5c))
+
 ## [3.0.2](https://github.com/jetstreamlabs/snowflake/compare/v3.0.1...v3.0.2) (2022-12-11)
 
 

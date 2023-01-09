@@ -1,5 +1,18 @@
 # Snowflake Changelog
 
+## [3.0.4](https://github.com/jetstreamlabs/snowflake/compare/v3.0.3...v3.0.4) (2023-01-09)
+
+
+* **deps-dev:** bump @commitlint/config-conventional ([753c400](https://github.com/jetstreamlabs/snowflake/commit/753c4003a7086ab58bd4cdcad0c4a0420b921456))
+* **deps-dev:** bump semantic-release from 19.0.5 to 20.0.0 ([7f36d63](https://github.com/jetstreamlabs/snowflake/commit/7f36d630fa5e59f424b03ed315e3c6321d3da230))
+* **deps:** bump actions/setup-node from 3.5.1 to 3.6.0 ([f22fb87](https://github.com/jetstreamlabs/snowflake/commit/f22fb87c5d09419a6d223810c5664bcea72ae68b))
+
+
+### Task Commit
+
+* update commit/cli —dpbot ([9bedeab](https://github.com/jetstreamlabs/snowflake/commit/9bedeab9b69bac1a0110b856d6472e1c5f41d1eb))
+* update dependencies —dpbot ([85e030e](https://github.com/jetstreamlabs/snowflake/commit/85e030ea5b03a5b96d6dc9a03cf4d2c64021c8e9))
+
 ## [3.0.3](https://github.com/jetstreamlabs/snowflake/compare/v3.0.2...v3.0.3) (2023-01-04)
 
 

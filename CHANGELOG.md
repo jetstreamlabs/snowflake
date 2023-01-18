@@ -1,5 +1,17 @@
 # Snowflake Changelog
 
+## [3.0.5](https://github.com/jetstreamlabs/snowflake/compare/v3.0.4...v3.0.5) (2023-01-18)
+
+
+* **deps-dev:** bump @commitlint/cli from 17.4.1 to 17.4.2 ([5849ce8](https://github.com/jetstreamlabs/snowflake/commit/5849ce8d7082eea88a400a650e3520a40dda3d57))
+* **deps-dev:** bump @commitlint/config-conventional ([5515484](https://github.com/jetstreamlabs/snowflake/commit/551548422b7d55d635f5c70b9f55196f5e473c6b))
+* **deps:** bump illuminate/database from 9.46.0 to 9.48.0 ([851a4d4](https://github.com/jetstreamlabs/snowflake/commit/851a4d402faa17454bc1685da2101853b71b3faa))
+
+
+### Task Commit
+
+* update dependencies —dpbot ([55c935a](https://github.com/jetstreamlabs/snowflake/commit/55c935ae3d6f551c34c96407180a67f9ae6fecb6))
+
 ## [3.0.4](https://github.com/jetstreamlabs/snowflake/compare/v3.0.3...v3.0.4) (2023-01-09)
 
 

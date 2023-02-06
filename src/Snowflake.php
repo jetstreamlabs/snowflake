@@ -104,9 +104,9 @@ class Snowflake implements SnowflakeDriver
     $id = decbin($id);
 
     $data = [
-      'timestamp'  => substr($id, 0, -22),
-      'sequence'   => substr($id, -12),
-      'workerid'   => substr($id, -17, 5),
+      'timestamp' => substr($id, 0, -22),
+      'sequence' => substr($id, -12),
+      'workerid' => substr($id, -17, 5),
       'datacenter' => substr($id, -22, 5),
     ];
 

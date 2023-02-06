@@ -32,9 +32,9 @@ return [
   'providers' => [
     // Requires Laravel v8.* installed.
     'laravel' => LaravelResolver::class,
-    'random'  => RandomResolver::class,
-    'redis'   => RedisResolver::class,
-    'swoole'  => SwooleResolver::class,
+    'random' => RandomResolver::class,
+    'redis' => RedisResolver::class,
+    'swoole' => SwooleResolver::class,
   ],
 
   // Start timestamp (must be a valid timestamp)

@@ -1,7 +1,8 @@
 {
 	"private": true,
 	"scripts": {
-		"fixer": "php ./vendor/bin/styleci analyze -c",
+		"lint": "php ./vendor/bin/pinte --dirty",
+		"pinte": "php ./vendor/bin/pinte",
 		"cn": "composer update && npm update"
 	},
 	"commitlint": {
@@ -36,5 +37,10 @@
 		"@semantic-release/git": "^10.0.1",
 		"husky": "^8.0.3",
 		"semantic-release": "^20.1.0"
+	},
+	"overrides": {
+		"@semantic-release/npm": {
+			"npm": "^9.4.1"
+		}
 	}
 }

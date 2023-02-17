@@ -1,5 +1,24 @@
 # Snowflake Changelog
 
+# [3.1.0](https://github.com/jetstreamlabs/snowflake/compare/v3.0.5...v3.1.0) (2023-02-17)
+
+
+* **deps-dev:** bump semantic-release from 20.0.2 to 20.1.0 ([f2efdef](https://github.com/jetstreamlabs/snowflake/commit/f2efdefbafdee6be02956bcf53604da8f4f0cfbb))
+* **deps:** bump illuminate/database from 9.48.0 to 9.50.2 ([45764db](https://github.com/jetstreamlabs/snowflake/commit/45764db1bcced843816bd1789e8c51d23606511b))
+
+
+### Features
+
+* update dependencies for L10 ([8e9a847](https://github.com/jetstreamlabs/snowflake/commit/8e9a847c4cf86d9c1e24469801ba22c1eb392da5))
+
+
+### Maintenance
+
+* **dev-deps:** update dependencies —dpbot ([4e482a7](https://github.com/jetstreamlabs/snowflake/commit/4e482a7e2c6f4f69ba999c875a892f185b726689))
+* **style:** convert to pinte ([b301523](https://github.com/jetstreamlabs/snowflake/commit/b301523d3f50dffed700efde7ef4a67a97248a8b))
+* update workflow ([b9f04e4](https://github.com/jetstreamlabs/snowflake/commit/b9f04e4dbaab262ee67bbaf2c0ac96d148806061))
+* update workflow 2nd attempt ([a057abb](https://github.com/jetstreamlabs/snowflake/commit/a057abb54ee23bec8360af15ff237d498a2ab6b8))
+
 ## [3.0.5](https://github.com/jetstreamlabs/snowflake/compare/v3.0.4...v3.0.5) (2023-01-18)
 
 

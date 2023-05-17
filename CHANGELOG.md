@@ -1,5 +1,30 @@
 # Snowflake Changelog
 
+## [3.1.1](https://github.com/jetstreamlabs/snowflake/compare/v3.1.0...v3.1.1) (2023-05-17)
+
+
+### Code Refactoring
+
+* dpendency update ([37ffb53](https://github.com/jetstreamlabs/snowflake/commit/37ffb53320f81b4be6a0c887c566f5a9dd31ab9c))
+
+
+* **deps-dev:** bump @commitlint/cli from 17.4.2 to 17.4.3 ([47db89b](https://github.com/jetstreamlabs/snowflake/commit/47db89b9817e0397f28a6cce8b1285180248388e))
+* **deps-dev:** bump @commitlint/cli from 17.4.3 to 17.6.3 ([00a2a2d](https://github.com/jetstreamlabs/snowflake/commit/00a2a2d6d8e0b8926690fb74ac98186034fa8463))
+* **deps-dev:** bump @commitlint/config-conventional ([a86b9fb](https://github.com/jetstreamlabs/snowflake/commit/a86b9fbe37d78c5d3c2cae9245c08c17f14e6989))
+* **deps-dev:** bump @semantic-release/changelog from 6.0.2 to 6.0.3 ([aa40ed5](https://github.com/jetstreamlabs/snowflake/commit/aa40ed569fcf93a270e12590f02340b0e93bd485))
+* **deps-dev:** bump semantic-release from 20.1.0 to 21.0.2 ([bd50eba](https://github.com/jetstreamlabs/snowflake/commit/bd50eba303d431311f911ebd14b772305c92509f))
+* **deps-dev:** bump semantic-release from 20.1.3 to 21.0.2 ([bbfe5a8](https://github.com/jetstreamlabs/snowflake/commit/bbfe5a80283db7f0621ced73045624c5dd2084e9))
+* **deps:** bump illuminate/database from 10.0.3 to 10.9.0 ([dd221ef](https://github.com/jetstreamlabs/snowflake/commit/dd221efc58917a7fac13b9ee86ff1e8b860522e2))
+* **deps:** bump illuminate/database from 10.9.0 to 10.11.0 ([a765f34](https://github.com/jetstreamlabs/snowflake/commit/a765f346020d5bd42fa41e2520f4ba78d8f1e1ee))
+
+
+### Maintenance
+
+* dev updates ([471786d](https://github.com/jetstreamlabs/snowflake/commit/471786d90cc000b360fb5d496b76bd1e8db6e17e))
+* **dev-deps:** dependency updates ([acc90e9](https://github.com/jetstreamlabs/snowflake/commit/acc90e9d20c25ae5bee99b679ab49f60c92eabf1))
+* **dev-deps:** updates [dpbot] ([cdc7775](https://github.com/jetstreamlabs/snowflake/commit/cdc777594d54bfc3db8a4cf0008d33abfd6858c8))
+* update workflow ([531321f](https://github.com/jetstreamlabs/snowflake/commit/531321fe69ac22cba8dedce17e6af3edaa8667e6))
+
 # [3.1.0](https://github.com/jetstreamlabs/snowflake/compare/v3.0.5...v3.1.0) (2023-02-17)
 
 

@@ -1,46 +1,46 @@
 {
-	"private": true,
-	"scripts": {
-		"lint": "php ./vendor/bin/pinte --dirty",
-		"pinte": "php ./vendor/bin/pinte",
-		"cn": "composer update && npm update"
-	},
-	"commitlint": {
-		"extends": [
-			"@commitlint/config-conventional"
-		],
-		"rules": {
-			"header-max-length": [
-				2,
-				"always",
-				120
-			],
-			"type-enum": [
-				2,
-				"always",
-				[
-					"breaking",
-					"feat",
-					"fix",
-					"task",
-					"refactor",
-					"docs",
-					"chore"
-				]
-			]
-		}
-	},
-	"devDependencies": {
-		"@commitlint/cli": "^17.6.3",
-		"@commitlint/config-conventional": "^17.6.5",
-		"@semantic-release/changelog": "^6.0.3",
-		"@semantic-release/git": "^10.0.1",
-		"husky": "^8.0.3",
-		"semantic-release": "^21.0.5"
-	},
-	"overrides": {
-		"@semantic-release/npm": {
-			"npm": "^9.4.1"
-		}
-	}
+  "private": true,
+  "scripts": {
+    "lint": "php ./vendor/bin/pinte --dirty",
+    "pinte": "php ./vendor/bin/pinte",
+    "cn": "composer update && npm update"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
+    "rules": {
+      "header-max-length": [
+        2,
+        "always",
+        120
+      ],
+      "type-enum": [
+        2,
+        "always",
+        [
+          "breaking",
+          "feat",
+          "fix",
+          "task",
+          "refactor",
+          "docs",
+          "chore"
+        ]
+      ]
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.5",
+    "@commitlint/config-conventional": "^17.6.5",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "husky": "^8.0.3",
+    "semantic-release": "^21.0.5"
+  },
+  "overrides": {
+    "@semantic-release/npm": {
+      "npm": "^9.4.1"
+    }
+  }
 }

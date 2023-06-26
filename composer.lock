@@ -1160,16 +1160,16 @@
     "packages-dev": [
         {
             "name": "jetstreamlabs/pinte",
-            "version": "v1.0.6",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jetstreamlabs/pinte.git",
-                "reference": "c9adecf4069369eb6be5fba14732aa2d98e60946"
+                "reference": "2e62d0444e77c2a18ea66c6343d8031400aafa05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jetstreamlabs/pinte/zipball/c9adecf4069369eb6be5fba14732aa2d98e60946",
-                "reference": "c9adecf4069369eb6be5fba14732aa2d98e60946",
+                "url": "https://api.github.com/repos/jetstreamlabs/pinte/zipball/2e62d0444e77c2a18ea66c6343d8031400aafa05",
+                "reference": "2e62d0444e77c2a18ea66c6343d8031400aafa05",
                 "shasum": ""
             },
             "require": {
@@ -1180,13 +1180,13 @@
                 "php": "^8.1"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.14",
-                "illuminate/view": "^9.50",
-                "laravel-zero/framework": "^9.2",
-                "mockery/mockery": "^1.5",
-                "nunomaduro/larastan": "^2.4",
+                "friendsofphp/php-cs-fixer": "^3.19",
+                "illuminate/view": "^10.13",
+                "laravel-zero/framework": "^10.1",
+                "mockery/mockery": "^1.6",
+                "nunomaduro/larastan": "^2.6",
                 "nunomaduro/termwind": "^1.15",
-                "pestphp/pest": "^1.22"
+                "pestphp/pest": "^2.8"
             },
             "bin": [
                 "builds/pinte"
@@ -1226,7 +1226,7 @@
                 "issues": "https://github.com/jetstreamlabs/pinte/issues",
                 "source": "https://github.com/jetstreamlabs/pinte"
             },
-            "time": "2023-02-05T09:23:57+00:00"
+            "time": "2023-06-24T18:27:42+00:00"
         }
     ],
     "aliases": [],
